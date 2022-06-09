@@ -22,6 +22,7 @@ echo "Getting development tools"
 go get -u golang.org/x/tools/gopls
 go get -u github.com/go-delve/delve/cmd/dlv
 go get -u github.com/rakyll/hey
+go get -u github.com/spf13/cobra-cli@latest
 
 # vscode-go dependencies 
 echo "Getting dependencies for the vscode-go plugin "
